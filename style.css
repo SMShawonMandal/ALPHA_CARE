@@ -47,7 +47,8 @@ body {
 }
 
 .first .title {
-    padding-top: 12%;
+    padding-top: 250px;
+    padding-bottom: 250px;
 }
 
 .first .title .main-title {

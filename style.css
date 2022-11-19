@@ -1,0 +1,125 @@
+*{
+    margin : 0px;
+    padding : 0px;
+}
+body {
+    margin : 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    display : flex;
+    align-items : center;
+    justify-content: space-between;
+    background-color:darkgray;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.navbar .logo span{
+    color: black;
+    font-size: 35px;
+}
+.navbar .links {
+    display: flex;
+    font-size: large;
+}
+
+.navbar .link {
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.navbar .link:hover {
+    color: rgb(99, 99, 99);
+    cursor: pointer;
+}
+
+
+.first {
+    background-color:rgb(226, 226, 226);
+    height: 650px;
+    text-align: center;
+}
+
+.first .title {
+    height: 300px;
+    padding-top: 250px;
+}
+
+.first .title .main-title {
+    font-size: 50px;
+
+}
+
+.first .title p {
+    margin-top: 40px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+
+.hijibiji {
+    background-color: #c5c5c5;
+}
+form {
+    width: 400px;
+    margin: auto;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+  }
+  
+input {
+    padding: 4px 10px;
+    border: 0;
+    font-size: 16px;
+  }
+  
+.search {
+    width: 75%;
+  }
+  
+.submit {
+    width: 70px;
+    background-color: #6d6d6d;
+    color: #ffffff;
+  }
+
+.social {
+    
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: #d8d8d8;
+}
+
+.social .link {
+    padding-left: 15px;
+
+}
+
+.social .links {
+    display : flex;
+    padding-left: 700px;
+}
+
+.social .link:hover {
+    color: rgb(99, 99, 99);
+    cursor: pointer;
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(204, 204, 204);
+    padding: 25px 0px;
+}
+.footer p {
+    margin: 0px;
+    text-align: center;
+}
